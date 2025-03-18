@@ -1,6 +1,6 @@
 # :factory: :shower: Automatically refreshing GitHub App tokens
 
-This repo is intended for people looking to understand more about GitHub apps and what an implmentation from a code perspective looks. Where possible the examples look to decorate function calls to the GitHub API. All of the code samples include an example script that share identical output with slight deviances (I'm looking at you Golang). There is no magic, just a simple check to validate the token and making sure our function calls always have a valid token.
+This repo is intended for people looking to understand more about GitHub apps and what an implementation from a code perspective looks. Where possible the examples look to decorate function calls to the GitHub API. All of the code samples include an example script that share identical output with slight deviances (I'm looking at you Golang). There is no magic, just a simple check to validate the token and making sure our function calls always have a valid token.
 
 I personally learn a lot from example so I wanted to provide some simple notes for me but also to help others get up and running with a GitHub App quickly and with minimal knowledge. What I'm really hoping people take notice of is how similar this code is to using a PAT but also the benefits of not using long lived service accounts and passwords.
 
